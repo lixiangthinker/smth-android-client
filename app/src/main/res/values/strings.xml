@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">NewSMTH</string>
+    <string name="login_title_string">www.newsmth.org</string>
+    <string name="user_name">user name</string>
+    <string name="password">password</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_guest">Guest</string>
+    <string name="toast_login_success">登录成功!</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="logout_failed">退出登录失败!\n</string>
+    <string name="footer_loading_more">loading more</string>
+    <string name="home">主页</string>
+    <string name="message">消息</string>
+    <string name="me">我的</string>
+    <string name="tab_home">热点</string>
+    <string name="tab_board">板块</string>
+    <string name="tab_my_favor">收藏</string>
+    <string name="tab_message">私信</string>
+</resources>

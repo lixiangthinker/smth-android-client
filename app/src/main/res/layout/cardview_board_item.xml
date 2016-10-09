@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="2dp"
+    android:layout_marginBottom="2dp"
+    android:stateListAnimator="@animator/touch_item"
+    android:id="@+id/cv_board_item">
+    <LinearLayout
+        android:id="@+id/ll_board_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tv_board_section"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSizeSmall"
+                android:textColor="@color/colorTopicTextSecondary"
+                android:layout_alignParentStart="true"
+                tools:text = "BoardSection"/>
+            <TextView
+                android:id="@+id/tv_board_owner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSizeSmall"
+                android:textColor="@color/colorTopicTextSecondary"
+                android:layout_alignParentEnd="true"
+                tools:text = "BoardOwner"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_board_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textSizeMedium"
+            android:textColor="@color/colorTopicTextPrimary"
+            tools:text = "Board Name"/>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

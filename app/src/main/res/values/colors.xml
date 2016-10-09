@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00BCD4</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorTopicTextPrimary">#000000</color>
+    <color name="colorTopicTextSecondary">#757575</color>
+    <color name="colorCategoryText">#FFFFFF</color>
+    <color name="color_footer_bg">#E0E0E0</color>
+    <color name="color_tab_icon_one">#00BCD4</color>
+    <color name="color_tab_icon_two">#E91E63</color>
+    <color name="color_tab_icon_three">#FF5722</color>
+    <color name="color_tab_icon_four">#4CAF50</color>
+</resources>
