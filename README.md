@@ -9,6 +9,30 @@
 5 JAVA Html解析</br>
 6 数据库模型</br>
 
+# 当前支持功能：
+1 热点话题列表</br>
+2 板块列表</br>
+3 用户登录</br>
+4 Post查看</br>
+
+# TODO
+1 个人收藏版面</br>
+2 站内信</br>
+3 个人设置</br>
+4 RecyclerView 切换为 StickHeaderRecyclerView</br>
+5 板块分类显示</br>
+6 本地数据库缓存</br>
+7 Post照片显示</br>
+8 网络API抽象为smthapi.jar</br>
+9 完备的单元测试</br>
+10 Jekins CI环境</br>
+
+# 后续计划
+先完成功能，再补充单元测试和CI；纯学习使用，无商业计划；
+
+#致谢
+API参考了zSMTH-Android项目，后续计划抽象为单纯的smthapi.jar； https://github.com/zfdang/zSMTH-Android 
+
 ##License
  
  ```
